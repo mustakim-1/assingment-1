@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+      .header {
+            text-align: center;
+            padding: 50px;
+            background-image: linear-gradient(to bottom, black, transparent),url('./style/resources/Banner\ Image.png');
+            margin: 140px;
+            width: 1150px;
+            height: 500px;
+            color: whitesmoke;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .header h2 {
+            font-size: 4em;
+            margin-bottom: 40px;
+        }
+        .header span{
+            font-size: 4em;
+            
+        }
+
+        .offer {
+            text-align: center;
+            margin: 0 20px;
+        }
+
+        .offer h3 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: red; 
+        }
+
+        .suboffer {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .happy-new-year {
+            position: absolute; 
+            top: 50px;
+            left: 50px;
+            font-size: 5em;
+            line-height: 1em; 
+            transform: rotate(-90deg); 
+        }
+
+        .year {
+            font-size: 7em;
+            font-weight: bold;
+            margin-top: -50px; 
+        }
+        .image-3{
+            margin-left: 300px;
+            margin-top: 65px;
+        }
+
+        .text-container {
+  text-align: center; 
+}
+
+
+button {
+  margin-top: 200px;
+  background: #000;
+  margin-left: 20px;
+  color: aliceblue;
+}
+        .image-2 {
+    background-image: linear-gradient(to right, black, transparent), url('./style/resources/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 140px;
+    width: 1150px;
+    height: 500px;
+    color: white;
+}
+
+.welcom{
+  margin-left: 100px;
+  padding-top: 80px;
+}
+.square {
+            position: relative;
+            background-color: pink;
+            background-image: linear-gradient(to top, rgba(255,255,255,0.5), pink);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 140px;
+            width: 1150px;
+            height: 500px;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .details {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .details h2 {
+            margin: 0;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .button-2 {
+            padding: 10px 20px;
+            background-color: #ff007f;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ff0055;
+        }
+        .span-1{
+            color: red;
+        }
+          
+        
+header {
+  padding: 50px;
+}
+
+.h1-tag {
+  font-size: small;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.p-tag {
+  font-size: medium;
+  line-height: 1.2;
+}
+
+
+@media (max-width: 768px) {
+  .text-container {
+    flex-direction: column;
+  }
+}
+.sale{
+    font-size: 3em;
+    font-weight: bold;
+}
+        
+.Holiday{
+    color: red;
+}
+
+@media (max-width: 768px) {
+        .image-2 {
+            max-width: 100%; /* Make the image full width on smaller screens */
+            margin-right: 0; /* Remove margin on smaller screens */
+            margin-top: 20px; /* Add some space between the image and the main content on smaller screens */
+            align-self: flex-start; /* Align the image to the top on smaller screens */
+        }
+    }
+    .content {
+        display: flex;
+        flex-direction: column; /* Arrange items vertically */
+    }
+
+
+
+    .image-container-1 {
+        max-width: 100%; /* Allow images to take full width */
+        margin-bottom: 0px; /* Add some space below the image containers */
+        margin-left: 60px;
+       
+    }
+
+    .image-container img {
+        max-width: auto; /* Ensure images fit properly */
+        display: block; /* Ensure images do not have any default inline spacing */
+        margin-left: 99px ;
+    }
+
+    /* Align first image to the right */
+    @media (min-width: 768px) {
+        .first-image {
+            margin-left: 950px;
+        }
+    }
+    .second-image {
+            position: absolute;
+            top: 0; /* Adjust top position to align with the top of the first image */
+            left: -150px; /* Adjust the left position to move the second image more to the left */
+            z-index: 1; /* Ensure the new image is above the first image */
+        }
+        .additional-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+        
+        .additional-text {
+            margin-bottom: 20px;
+            margin-right: 999px;
+        }
+        
+        .additional-text p {
+            margin: 0;
+        }
+        
+        .additional-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .additional-image-container {
+            width: 30%;
+            margin: 10px;
+        }
+        
+        .additional-image-container img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .text-1{
+            color: red;
+            font-weight: bolder;
+            font-size: larger;
+        }
+        .text-2{
+            font-size: 2em; 
+            font-weight: bold;
+            
+        }          
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Happy New Year</h1>
+        <h2>New Year Party </h2>
+        <span>Celebration</span>
+    </div>
+    <div class="offer">
+        <h3>65% OFF</h3>
+        <p class="suboffer">OUR HOLIDAY DEALS ARE BETTER</p>
+        <p class="suboffer">ALL CATEGORIES</p>
+    </div>
+    <div class="image-3">
+        <img src="style/resources/New Year Photo.png" alt="">
+    </div>
+    <div>
+        <div class="image-2">
+            <div class="welcom">
+                <h1>Welcome to</h1>
+                <h1>midnight party</h1>
+                <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada.</p>
+                <span>Ipsum sed sodales risus ut pellentesque vel euismod.</span> 
+            </div>
+            <button class="button">JOIN NOW</button>
+        </div>
+    </div>
+    <div>
+        <div class="square">
+            <div class="details">
+                <h2><span class="span-1">Place</span>: New Park Hotel</h2>
+                <h2><span class="span-1">Date</span>: 31 December Night 2023</h2>
+                <h2><span class="span-1">Time</span>: Evening 7.30 pm to 12.30 am</h2>
+            </div>
+            <button class="button-2">Join Now</button>
+        </div>
+    </div>
+    <div class="h1-tag">
+        <p>WHAT IS FUNCTIONAL</p>
+    </div>
+    <main>
+        <section class="text-container">
+            <div class="sale">
+                <p><span class="Holiday">Holiday</span> Sale 50%</p>
+            </div>
+            <div class="p-tag">
+                <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed 
+                    molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod. Eleifend nunc purus quam id fermentum amet amet sit consectetur.</p>
+            </div>
+        </section>
+        <div class="content">
+            <div class="first-image">
+                <img src="/style/resources/Rectangle 1.png" alt="First Image">
+            </div>
+            <div class="image-container-1">
+                <img src="style/resources/Rectangle 2.png" alt="Second Image">
+            </div>
+        </div>
+        <section class="additional-section">
+            <div class="additional-text">
+                <p class="text-1">Three lines of text</p>
+                <p class="text-2">Our Awesome Portfolio</p>
+                <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod. </p>
+            </div>
+            <div class="additional-images">
+                <div class="additional-image-container">
+                    <img src="style/resources/Rectangle 3.png" alt="Additional Image 1">
+                </div>
+                <div class="additional-image-container">
+                    <img src="style/resources/Rectangle 4.png" alt="Additional Image 2">
+                </div>
+                <div class="additional-image-container">
+                    <img src="style/resources/Rectangle 5.png" alt="Additional Image 3">
+                </div>
+                <div class="additional-image-container">
+                    <img src="style/resources/Rectangle 6.png" alt="Additional Image 4">
+                </div>
+                <div class="additional-image-container">
+                    <img src="style/resources/Rectangle 7.png" alt="Additional Image 5">
+                </div>
+                <div class="additional-image-container">
+                    <img src="style/resources/Rectangle 8.png" alt="Additional Image 6">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
